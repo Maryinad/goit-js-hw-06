@@ -19,7 +19,7 @@ const createMarkup = (images) => {
   return images
     .map((image) => {
       return `<li class= "images-list"> 
-           <img src = "${image.url} alt = "${image.alt}" width = "">
+           <img src = "${image.url} alt = "${image.alt}" width = "400">
        </li>`;
     })
     .join("");
